@@ -8,7 +8,7 @@ import Portfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
 import Layout from './components/Layout/Layout'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import NotFound from './components/Notfound/Notfound'
+import NotFound from './components/NotFound/NotFound'
 
 export default function App() {
   let routers = createBrowserRouter([
@@ -17,7 +17,7 @@ export default function App() {
       path: "",
       element: <Layout/>,
       children: [
-        { path: "reactassignment/", element: <Home /> },
+        { index: true, element: <Home /> },
         { path: "About", element: <About /> },
         { path: "Portfolio", element: <Portfolio /> },
         { path: "Contact", element: <Contact/> },
