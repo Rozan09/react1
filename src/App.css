@@ -1,0 +1,57 @@
+.navbar {
+  background-color: #2C3E50;
+}
+.line {
+  width: 80px;
+  height: 4px;
+  background-color: white;
+  margin-top: 6px;
+}
+.home ,  .about , .contact button{
+  background-color: #1ABC9C;
+}
+.row {
+  --bs-gutter-x: 0;
+}  
+.footer , .portfolio .line ,.contact .line{
+  background-color: #2C3E50;
+}
+.cpyrights{
+  background-color: #1A252F;
+}
+.portfolio h2{
+  color: #2C3E50;
+}
+.layer{
+  width: 97%;
+  height: 99.2%;
+  position: absolute;
+  background-color: #1abc9cb7;
+  opacity: 0;
+  transition: all .5s;
+}
+.layer:hover{
+  opacity: 1;
+}
+.fa-plus{
+  font-size: 100px;
+}
+.modal-content{
+  width: 600px;
+}
+.bgcolor{
+  background-color:#0d6dfd30;
+}
+.contact input:focus{
+  outline: 0;
+}
+.contact button{
+  left: 25%;
+  bottom: -5%;
+}
+.active{
+  background-color: #1ABC9C;
+}
+.modal-open{
+  overflow: visible !important; 
+}
